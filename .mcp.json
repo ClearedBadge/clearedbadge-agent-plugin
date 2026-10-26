@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clearedbadge": {
+      "type": "http",
+      "url": "https://clrbadge-mcp.vercel.app/mcp"
+    }
+  }
+}

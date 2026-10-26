@@ -1,0 +1,10 @@
+{
+  "name": "clearedbadge",
+  "version": "0.2.2",
+  "description": "Register final JSON results with ClearedBadge and verify them later, through the ClearedBadge MCP server. Contains the clearedbadge skill and the connection to https://clrbadge-mcp.vercel.app/mcp (sign in with /mcp).",
+  "author": {"name": "ClearedBadge (Cubes BV)", "email": "info@clrbadge.com"},
+  "homepage": "https://clrbadge-web.vercel.app",
+  "repository": "https://github.com/ClearedBadge/clearedbadge-agent-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://clrbadge-web.vercel.app/privacy"
+}

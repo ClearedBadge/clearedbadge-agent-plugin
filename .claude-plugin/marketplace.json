@@ -1,0 +1,15 @@
+{
+  "name": "clearedbadge",
+  "description": "ClearedBadge for Claude Code: record a final JSON result and verify it later.",
+  "owner": {
+    "name": "ClearedBadge (Cubes BV)",
+    "email": "info@clrbadge.com"
+  },
+  "plugins": [
+    {
+      "name": "clearedbadge",
+      "source": "./",
+      "description": "Register final JSON results with ClearedBadge and verify them later, through the ClearedBadge MCP server (sign in with /mcp)."
+    }
+  ]
+}

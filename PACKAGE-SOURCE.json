@@ -1,0 +1,37 @@
+{
+  "package": "clearedbadge",
+  "version": "0.2.2",
+  "source_repository": "ClearedBadge/clrbadge-mcp (private)",
+  "source_commit": "cdee2c0974b68e017d8a97fa6cf270c4c86c0404",
+  "reviewed_base_commit": "c9c15740826c2e9495ffc6630a455a211a2da3e1",
+  "plugin_files_unchanged_since_reviewed_base": [
+    ".mcp.json",
+    "skills/clearedbadge/references/files.md",
+    "skills/clearedbadge/references/receipt.md",
+    "skills/clearedbadge/references/setup.md"
+  ],
+  "plugin_files_changed_since_reviewed_base": [
+    ".claude-plugin/plugin.json",
+    "skills/clearedbadge/SKILL.md",
+    "skills/clearedbadge/references/outcomes.md"
+  ],
+  "plugin_files_from": "plugin/clearedbadge/ at the source commit, byte for byte",
+  "package_files_from": "distribution/public/ at the source commit, byte for byte",
+  "files": {
+    ".claude-plugin/marketplace.json": "e8125d759c69bfbe764fb94b07108869d9b12a59b35fe877a7220c7abd6a3d1b",
+    ".claude-plugin/plugin.json": "b03dc461cf800cebe6f712831d1939ae84c6bc0dc299d85250cb88c0bba0a29b",
+    ".gitattributes": "d0c9eeae2c52c80e91ad4fd133b054af67098711f13b10ec344653738b1824e5",
+    ".mcp.json": "722e4e53fae7b50dca7ebfb07ecaa5086ee50ec4f7514c62d99e26354f2d7ecf",
+    "INSTALL.md": "12c57454566a474255f85d1abbe150f14c50f27e6be7d6e79a1c19d5d80cf6f7",
+    "LICENSE": "be0145baa4a39620e0934444e4e24b5bac53dc351a9d3841192c0b1d4eed5cc3",
+    "NOTICE.md": "1bc09fb66d700de2c3c347359628c8f1fe8eb69a464ad7236fdc97124aec8985",
+    "README.md": "5eef2cf4990e3e7b1191f84988eeea4a618c5c366ce45e8905f8178e9d87af00",
+    "examples/first-check.md": "462b867a6e884cb4c9aea5632e10b7f16629af3ff7a4ed626c9854b8d2c495b2",
+    "examples/sample-event.json": "2c3ec6fc8c9c12e460ba17fe2e95f6ace644fa8761e63d21771a94a042ad4262",
+    "skills/clearedbadge/SKILL.md": "94bf105715288d75eddf2b9375149db5f223e638d11e047f63d6174f530f0050",
+    "skills/clearedbadge/references/files.md": "1eaf42817ac2e252e1924d659c4434b92b9929fcede39d87a1d2296e48096501",
+    "skills/clearedbadge/references/outcomes.md": "53033f925201a2500155ecda4970fac0e1be47c98f59631a78e71af04230b538",
+    "skills/clearedbadge/references/receipt.md": "609ab7b36cd09dbca947b5cf250c68420d8b58fac5479fd0d16f95fd9871be86",
+    "skills/clearedbadge/references/setup.md": "46894854f9da0ac49544f978545226f88a3aa6f67bb2f39d7a232f9c9f61be8f"
+  }
+}

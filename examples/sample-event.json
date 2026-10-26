@@ -1,0 +1,10 @@
+{
+  "type": "quote.final",
+  "quote": "EXAMPLE-0001",
+  "client": "Example Ltd",
+  "currency": "EUR",
+  "items": [
+    {"item": "setup", "price": 400},
+    {"item": "monthly support", "price": 120}
+  ]
+}
