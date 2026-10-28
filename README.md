@@ -12,7 +12,7 @@ Record a fingerprint of a final JSON result, so that anyone with an unchanged co
    ```text
    /plugin install clearedbadge --marketplace ClearedBadge/clearedbadge-agent-plugin
    ```
-2. **Sign in once:** start Claude Code, type `/mcp`, choose `plugin:clearedbadge:clearedbadge` and sign in in the browser. Claude never sees a password or key.
+2. **Sign in once:** start Claude Code, type `/mcp`, choose `plugin:clearedbadge:clearedbadge` and sign in in the browser. Or, from your shell: `claude mcp login plugin:clearedbadge:clearedbadge`. Use your ClearedBadge account, and have its password at hand: the wait for the sign-in times out after a few minutes. Claude never sees a password or key.
 3. **Try it safely** (records nothing, uses no quota). Ask Claude:
    > Use ClearedBadge (the plugin:clearedbadge:clearedbadge server) to verify record 00000000-0000-4000-8000-000000000000 against the event {"test": "connection"}.
 

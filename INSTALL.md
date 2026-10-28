@@ -71,7 +71,8 @@ If you also added ClearedBadge as a connector on claude.ai, Claude Code loads th
 |---|---|
 | `Plugin "clearedbadge" not found in marketplace` | Check the marketplace source; `claude plugin marketplace list` shows what is added |
 | No ClearedBadge tools in a session | `/mcp`: is `plugin:clearedbadge:clearedbadge` there and signed in? Restart the session after installing |
-| The server shows "needs authentication" | `/mcp` → `plugin:clearedbadge:clearedbadge` → authenticate |
+| The server shows "needs authentication" | `/mcp` → `plugin:clearedbadge:clearedbadge` → authenticate, or in your shell `claude mcp login plugin:clearedbadge:clearedbadge` |
+| `Authentication timeout` while signing in | The browser sign-in was not finished in time. Sign in on the ClearedBadge page with your ClearedBadge account; if you do not know the password, use the reset link there and check your junk mail. Then start the sign-in again: once the browser is signed in, it completes by itself |
 | `access_refused`, or HTTP 403 | This login has no (or no longer) ClearedBadge access |
 | `quota_exhausted` | The registration quota is used up; `verify` still works |
 | HTTP 429 | Too many requests: wait at least the Retry-After time, if shown |
